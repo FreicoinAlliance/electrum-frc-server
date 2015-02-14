@@ -4,11 +4,11 @@ params = {
     'bitcoin_main': {
         'pubkey_address': 0,
         'script_address': 5,
-        'genesis_hash': '000000000019d6689c085ae165831e934ff763ae46a2a6c172b3f1b60a8ce26f'
+        'genesis_hash': '000000005b1e3d23ecfd2dd4a6e1a35238aa0392c0a8528c40df52376d7efe2c'
     },
     'bitcoin_test': {
         'pubkey_address': 111,
         'script_address': 196,
-        'genesis_hash': '000000000933ea01ad0ee984209779baaec3ced90fa3f408719526f8d77f4943'
+        'genesis_hash': '0x00000000a52504ffe3420a43bd385ef24f81838921a903460b235d95f37cd65e'
     }
 }
