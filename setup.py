@@ -1,33 +1,33 @@
 from setuptools import setup
 
 setup(
-    name="electrum-server",
+    name="electrum-frc-server",
     version="0.9",
-    scripts=['run_electrum_server','electrum-server'],
+    scripts=['run_electrum_frc_server','electrum-frc-server'],
     install_requires=['plyvel','jsonrpclib', 'irc>=11'],
     package_dir={
-        'electrumserver':'src'
+        'electrumfrcserver':'src'
         },
     py_modules=[
-        'electrumserver.__init__',
-        'electrumserver.utils',
-        'electrumserver.storage',
-        'electrumserver.deserialize',
-        'electrumserver.networks',
-        'electrumserver.blockchain_processor',
-        'electrumserver.server_processor',
-        'electrumserver.processor',
-        'electrumserver.version',
-        'electrumserver.ircthread',
-        'electrumserver.stratum_tcp',
-        'electrumserver.stratum_http'
+        'electrumfrcserver.__init__',
+        'electrumfrcserver.utils',
+        'electrumfrcserver.storage',
+        'electrumfrcserver.deserialize',
+        'electrumfrcserver.networks',
+        'electrumfrcserver.blockchain_processor',
+        'electrumfrcserver.server_processor',
+        'electrumfrcserver.processor',
+        'electrumfrcserver.version',
+        'electrumfrcserver.ircthread',
+        'electrumfrcserver.stratum_tcp',
+        'electrumfrcserver.stratum_http'
     ],
-    description="Bitcoin Electrum Server",
+    description="Freicoin Electrum Server",
     author="Thomas Voegtlin",
     author_email="thomasv1@gmx.de",
     license="GNU Affero GPLv3",
     url="https://github.com/spesmilo/electrum-server/",
-    long_description="""Server for the Electrum Lightweight Bitcoin Wallet"""
+    long_description="""Server for the Electrum-FRC Lightweight Freicoin Wallet"""
 )
 
 
